@@ -5,10 +5,11 @@ import random
 
 api_id = int(os.getenv("API_ID"))
 api_hash = os.getenv("API_HASH")
-phone_number = os.getenv("PHONE_NUMBER")
+phone = os.getenv("TELEGRAM_PHONE")
+
 
 group_links = [
-    "https://t.me/group1",
+    "https://t.me/group_links_share_group",
     "https://t.me/group2",
     "https://t.me/group3"
 ]
